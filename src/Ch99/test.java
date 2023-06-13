@@ -17,9 +17,9 @@ class Seller
 	public int Receive(int money) {
 		
 		MyMoney += money;
-		int revcnt = money/price;
-		AppleCnt -= revcnt;
-		return revcnt;
+		int Apple = money/price;
+		AppleCnt -= Apple;
+		return Apple;
 	}
 	
 	void ShowInfo()
