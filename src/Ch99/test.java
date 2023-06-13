@@ -76,7 +76,7 @@ public class test {
 		buyer02.ShowInfo();
 		System.out.println("- buyer03-");
 		buyer03.ShowInfo();
-//1
+
 	}
 
 }
